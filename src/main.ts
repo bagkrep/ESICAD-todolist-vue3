@@ -14,7 +14,6 @@ import App from './App.vue';
     du contenu de notre application)
 */
 import HomeComponent from '@/components/HomeComponent.vue';
-import AboutComponent from '@/components/AboutComponent.vue';
 import PageNotFoundComponent from '@/components/PageNotFoundComponent.vue';
 
 // On définit un tableau de routes qui pointent vers des composants à render

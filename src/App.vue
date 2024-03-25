@@ -3,17 +3,11 @@
 
 <template>
   <header>
-    <h1 class="title">Vue 3 TodoList</h1>
+    <h1 class="title">ToDo List</h1>
   </header>
   <main>
     <router-view></router-view>
   </main>
-
-  <footer>
-    <p>
-      <RouterLink to="about">A propos de cette app</RouterLink>
-    </p>
-  </footer>
 </template>
 
 <!--
