@@ -23,7 +23,6 @@ const routes: RouteRecordRaw[] = [
   // on redirige les liens vers /home sur /
   { path: '/home', redirect: '/' },
   // une autre route /about render le AboutComponent
-  { path: '/about', component: AboutComponent },
   { path: '/not-found', component: PageNotFoundComponent },
   /*
    *   si aucune route n'a matché le path, on peut créer une route "wildcard"
